@@ -1,7 +1,7 @@
 {
-	"name": "n8n-nodes-waha",
+	"name": "n8n-nodes-wa-webjs",
 	"version": "0.1.1",
-	"description": "n8n to connect with Waha Whatsapp API",
+	"description": "n8n to connect with WA Web JS API",
 	"keywords": [
 		"n8n-community-node-package"
 	],
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/morning-bird/n8n-nodes-waha.git"
+		"url": "https://github.com/morning-bird/n8n-nodes-wa-webjs.git"
 	},
 	"main": "index.js",
 	"scripts": {
@@ -30,10 +30,10 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/WahaApi.credentials.js"
+			"dist/credentials/WaApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Waha/Waha.node.js"
+			"dist/nodes/Wa/Wa.node.js"
 		]
 	},
 	"devDependencies": {
