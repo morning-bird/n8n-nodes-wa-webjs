@@ -339,7 +339,7 @@ export class WaWebJS implements INodeType {
                         const binaryPropertyName = 'qrcode';
                         // hapus string yang tidak perlu
                         const data = responseData.data.startsWith("data:image/png;base64,") ?
-                            responseData.replace("data:image/png;base64,", "")
+                            responseData.data.replace("data:image/png;base64,", "")
                             : responseData.data;
                         const binary = {
                             [binaryPropertyName]: { data, fileName, mimeType } as IBinaryData,
