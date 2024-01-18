@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-wa-webjs",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "n8n to connect with WA Web JS API",
 	"keywords": [
 		"n8n-community-node-package"
